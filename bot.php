@@ -14,7 +14,7 @@ $channel_id = "-1001351780832";
 
     //Extact match Commands
     if($message == "/start"){
-        send_message($chat_id, "Hey $firstname I am $bot_name \nSupport Group - @world_bots \nUse /cmds to view commands \nBot developed by @reboot13 ");
+        send_message($chat_id, "Hey $firstname I am $bot_name \nMade For - [Telegeeks](t.me/telegeekscommunity) \nUse /cmds to view commands \nBot created by [Abhilash](t.me/Abhilash1149) \nForked from repo of [Reboot13](t.me/reboot13) ");
     }
 
     if($message == "/cmds"){
@@ -318,14 +318,14 @@ Checked By @$username ");
 
      ///Send Message (Global)
     function send_message($chat_id, $message){
-        $apiToken =  "API_TOKEN";
+        $apiToken =  "1464287877:AAFTQ6H3CAfYWS8jY9YrPmnxUuYJTdwwEFA";
         $text = urlencode($message);
         file_get_contents("https://api.telegram.org/bot$apiToken/sendMessage?chat_id=$chat_id&text=$text");
     }
     
 //Send Messages with Markdown (Global)
       function send_MDmessage($chat_id, $message){
-       $apiToken =  "API_TOKEN";
+       $apiToken =  "1464287877:AAFTQ6H3CAfYWS8jY9YrPmnxUuYJTdwwEFA";
         $text = urlencode($message);
         file_get_contents("https://api.telegram.org/bot$apiToken/sendMessage?chat_id=$chat_id&text=$text&parse_mode=Markdown");
     }
@@ -333,7 +333,7 @@ Checked By @$username ");
 
 ///Send Message to Channel
       function send_Cmessage($channel_id, $message){
-       $apiToken =  "API_TOKEN";
+       $apiToken =  "1464287877:AAFTQ6H3CAfYWS8jY9YrPmnxUuYJTdwwEFA";
         $text = urlencode($message);
         file_get_contents("https://api.telegram.org/bot$apiToken/sendMessage?chat_id=$channel_id&text=$text");
     }
