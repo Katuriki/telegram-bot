@@ -49,10 +49,10 @@ $channel_id = "-1001351780832";
     }
 
 if($message == "/help"){
-        send_message($chat_id, "Contact @Reboot13");
+        send_message($chat_id, "Contact @TelegeeksCommunity");
     }
 if($message == "/donate"){
-        send_message(https://reboot13.hashnode.dev/donate);
+        send_message(" Join https://t.me/TelegeeksCommunity");
     }
 
 ///Commands with text
