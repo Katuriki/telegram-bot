@@ -14,7 +14,7 @@ $channel_id = "-1001351780832";
 
     //Extact match Commands
     if($message == "/start"){
-        send_message($chat_id, "Hey $firstname I am $bot_name \nMade For - [Telegeeks](t.me/telegeekscommunity) \nUse /cmds to view commands \nBot created by [Abhilash](t.me/Abhilash1149) \nForked from repo of [Reboot13](t.me/reboot13) ");
+        send_message($chat_id, "Hey $firstname I am Telegeeks Binner \nMade For - @telegeekscommunity \nUse /cmds to view commands \nBot created by - Abhilash1149 \nForked from repo of - @reboot13 ");
     }
 
     if($message == "/cmds"){
