@@ -10,7 +10,7 @@
     $firstname = $update["message"]["from"]["first_name"];
     $bot_name = "" ;//your bot name
  /// for broadcasting in Channel
-$channel_id = "-1001464295573"; 
+$channel_id = "-1001351780832"; 
 
     //Extact match Commands
     if($message == "/start"){
@@ -29,7 +29,6 @@ $channel_id = "-1001464295573";
           \n/time (current time)
           \n/git <username>
           \n/info (User Info)
-          \n/donate (Donate to Creator)
           ");
     }
 
@@ -53,7 +52,7 @@ if($message == "/help"){
         send_message($chat_id, "Contact @Reboot13");
     }
 if($message == "/donate"){
-        send_message(No Donations Join @TelegeeksCommunity 😎😎);
+        send_message(https://reboot13.hashnode.dev/donate);
     }
 
 ///Commands with text
