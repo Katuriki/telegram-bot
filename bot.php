@@ -25,7 +25,6 @@ $channel_id = "-1001464295573";
           \n/smirror <name> (Search Movies/Series)
           \n/bin <bin> (Bin Data)
           \n/weather <name of your city> (Current weather Status)
-          \n/dice (random 1-6)
           \n/date (today's date)
           \n/time (current time)
           \n/git <username>
@@ -54,7 +53,7 @@ if($message == "/help"){
         send_message($chat_id, "Contact @Reboot13");
     }
 if($message == "/donate"){
-        send_message($chat_id, "https://reboot13.hashnode.dev/donate");
+        send_message(No Donations Join @TelegeeksCommunity 😎😎);
     }
 
 ///Commands with text
