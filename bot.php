@@ -29,6 +29,7 @@ $channel_id = "-1001351780832";
           \n/time (current time)
           \n/git <username>
           \n/info (User Info)
+          \n/donate (For Rich peeps)
           ");
     }
 
@@ -52,7 +53,7 @@ if($message == "/help"){
         send_message($chat_id, "Contact @TelegeeksCommunity");
     }
 if($message == "/donate"){
-        send_message($chat_id, "Join https://t.me/TelegeeksCommunity");
+        send_message($chat_id, "Join  T.me/TelegeeksCommunity");
     }
 
 ///Commands with text
