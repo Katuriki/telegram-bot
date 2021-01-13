@@ -52,7 +52,7 @@ if($message == "/help"){
         send_message($chat_id, "Contact @TelegeeksCommunity");
     }
 if($message == "/donate"){
-        send_message("Join https://t.me/TelegeeksCommunity");
+        send_message($chat_id, "Join https://t.me/TelegeeksCommunity");
     }
 
 ///Commands with text
