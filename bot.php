@@ -10,7 +10,7 @@
     $firstname = $update["message"]["from"]["first_name"];
     $bot_name = "" ;//your bot name
  /// for broadcasting in Channel
-$channel_id = "-1001351780832"; 
+$channel_id = "-1001464295573"; 
 
     //Extact match Commands
     if($message == "/start"){
